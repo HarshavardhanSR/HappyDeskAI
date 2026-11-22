@@ -1,0 +1,69 @@
+# AI CFO Backend — Python Dependencies
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database
+sqlalchemy[asyncio]>=2.0.25
+asyncpg>=0.29.0
+greenlet>=3.0.0
+alembic>=1.13.0
+
+# Redis (Upstash)
+redis>=5.0.0
+
+# Auth (Clerk JWT)
+python-jose[cryptography]>=3.3.0
+httpx>=0.27.0
+
+# AI
+openai>=1.10.0
+
+# File handling
+python-multipart>=0.0.6
+
+# Utilities
+email-validator>=2.1.0
+python-dateutil>=2.8.0
+
+# Encryption (field-level for webhooks, API keys)
+cryptography>=42.0.0
+
+# Observability (OpenTelemetry — ADVANCE-001)
+opentelemetry-api>=1.22.0
+opentelemetry-sdk>=1.22.0
+opentelemetry-exporter-otlp-proto-grpc>=1.22.0
+opentelemetry-instrumentation-fastapi>=0.43b0
+opentelemetry-instrumentation-sqlalchemy>=0.43b0
+opentelemetry-instrumentation-httpx>=0.43b0
+
+# Plaid banking integration (ADVANCE-003)
+plaid-python>=22.0.0
+
+# pgvector semantic search (ADVANCE-005)
+pgvector>=0.2.4
+# Optional local semantic search. Keep disabled on 512MB Render instances.
+# sentence-transformers>=2.2.0
+
+# File storage (FILE-001)
+aiofiles>=24.1.0
+
+# PDF report generation (FILE-002)
+reportlab>=4.0.0
+
+# Background scheduling (EXT-002)
+apscheduler>=3.10.0
+
+# Advanced forecasting (EXT-001 — optional, for ProphetForecastService)
+# Uncomment to enable Prophet time-series forecasting:
+# prophet>=1.1.5
+# pandas>=2.0.0
+
+# Email providers (INTEGRATIONS)
+aiosmtplib>=3.0.1      # SMTP (Gmail, Outlook, etc.)
+sendgrid>=6.11.0       # SendGrid
+boto3>=1.34.0          # AWS SES
+
+# Slack notifications (INTEGRATIONS)
+slack-sdk>=3.27.0      # Slack Bot API

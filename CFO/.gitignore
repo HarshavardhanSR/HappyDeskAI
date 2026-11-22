@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Testing
+.pytest_cache/
+.hypothesis/
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# IDE / Editor
+.cursor/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.docx
+
+# Agent / AI configs (not project code)
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+SKILL.md
+.claude/
+.agents/
+mcp.json
+.mcp.json
+opencode.json
+.opencode.json
+cursorrules
+.cursorrules
+.windsurfrules
+frontendskills.md
+implementation_plan.md
+compliance.json
+compliance_changes.json
+skills-lock.json
+.kiro/
+
+# Obsidian vault
+CFO/
+
+# Stitch screen designs (HTML mockups)
+frontend/Screens/
+frontend/CLAUDE.md
+frontend/AGENTS.md
+
+# Code review graph DB
+.code-review-graph/
+
+# Documentation (internal)
+docs/

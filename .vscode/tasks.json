@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run HappyDesk AI dev server",
+			"type": "shell",
+			"command": "npm --prefix \"D:\\Happy Desk\\HappyDeskAI\" run dev",
+			"isBackground": true
+		},
+		{
+			"label": "Start HappyDesk AI",
+			"type": "shell",
+			"command": "Set-Location 'D:\\Happy Desk\\HappyDeskAI'; npm run dev",
+			"isBackground": true
+		}
+	]
+}

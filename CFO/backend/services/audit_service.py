@@ -1,5 +1,5 @@
 """
-AI CFO — Audit Service
+HappyDeskAI — Audit Service
 Logs all user actions for compliance and traceability.
 
 NOTE: IP addresses are intentionally NOT logged (GDPR/CCPA — PII without

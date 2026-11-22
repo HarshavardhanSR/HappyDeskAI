@@ -1,5 +1,5 @@
 """
-AI CFO — Forecasting Router (EXT-001)
+HappyDeskAI — Forecasting Router (EXT-001)
 Thin HTTP adapter; implementation injected via ForecastService Protocol.
 """
 from fastapi import APIRouter, Depends, Query

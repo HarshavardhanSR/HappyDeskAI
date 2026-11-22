@@ -1,5 +1,5 @@
 """
-AI CFO — Password Policy Middleware
+HappyDeskAI — Password Policy Middleware
 Middleware for password validation in future custom authentication implementations.
 
 Note: This middleware is designed for future use with custom authentication.

@@ -1,5 +1,5 @@
 """
-AI CFO — SQLAlchemy ORM Models
+HappyDeskAI — SQLAlchemy ORM Models
 13 indexed tables, multi-tenant via workspace_id, financial-grade precision.
 """
 import uuid

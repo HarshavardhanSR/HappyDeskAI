@@ -1,5 +1,5 @@
 """
-AI CFO — Transactions Router
+HappyDeskAI — Transactions Router
 CRUD, CSV upload with file storage & audit trail, pagination, and filtering.
 """
 import csv

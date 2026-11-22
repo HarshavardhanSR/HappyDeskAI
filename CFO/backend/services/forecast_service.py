@@ -1,5 +1,5 @@
 """
-AI CFO — Forecast Service (EXT-001 refactor)
+HappyDeskAI — Forecast Service (EXT-001 refactor)
 Linear regression forecast with scenario modeling, wrapped in a Protocol-compatible class.
 
 Storage hierarchy (ARCH-003):

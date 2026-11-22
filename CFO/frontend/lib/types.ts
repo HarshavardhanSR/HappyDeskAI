@@ -1,5 +1,5 @@
 // ════════════════════════════════════════════════════════════════
-// AI CFO — Frontend Type Definitions
+// HappyDeskAI — Frontend Type Definitions
 // Aligned 1:1 with backend schemas.py
 // ════════════════════════════════════════════════════════════════
 

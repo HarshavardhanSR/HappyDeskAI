@@ -1,5 +1,5 @@
 """
-AI CFO — Expense Approval Router
+HappyDeskAI — Expense Approval Router
 Policy CRUD, submit for approval, approve/reject decisions.
 """
 import uuid

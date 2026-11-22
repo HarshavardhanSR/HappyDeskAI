@@ -1,5 +1,5 @@
 """
-AI CFO — Audit Log Router (Feature D)
+HappyDeskAI — Audit Log Router (Feature D)
 Read-only access to the audit trail with pagination and filtering.
 """
 from datetime import datetime, timedelta, timezone

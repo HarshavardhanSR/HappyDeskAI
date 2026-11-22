@@ -1,5 +1,5 @@
 """
-AI CFO - Dashboard Router
+HappyDeskAI - Dashboard Router
 Uses dashboard_service for aggregated data with caching.
 """
 from datetime import datetime, timedelta, timezone

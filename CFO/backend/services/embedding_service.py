@@ -1,5 +1,5 @@
 """
-AI CFO — Embedding Service (ADVANCE-005)
+HappyDeskAI — Embedding Service (ADVANCE-005)
 Free, local embeddings using sentence-transformers (all-MiniLM-L6-v2).
 No API costs — runs entirely on-device.
 

@@ -1,5 +1,5 @@
 """
-AI CFO — Consent Management Service
+HappyDeskAI — Consent Management Service
 Handles user consent tracking and management for GDPR compliance.
 """
 from datetime import datetime, timezone

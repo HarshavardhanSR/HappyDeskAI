@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AI CFO — Manual Scenario Testing Script
+HappyDeskAI — Manual Scenario Testing Script
 Interactive script for testing scenario creation and analysis.
 
 Usage:
@@ -374,7 +374,7 @@ async def test_list_scenarios(tester: ScenarioTester):
 async def run_all_tests(token: Optional[str] = None):
     """Run all scenario tests."""
     print("\n" + "="*60)
-    print("AI CFO — SCENARIO TESTING SUITE")
+    print("HappyDeskAI — SCENARIO TESTING SUITE")
     print("="*60)
     print(f"API Base URL: {API_BASE_URL}")
     print(f"Timestamp: {datetime.now().isoformat()}")
@@ -433,7 +433,7 @@ async def interactive_mode(token: Optional[str] = None):
     tester = ScenarioTester(API_BASE_URL, token)
     
     print("\n" + "="*60)
-    print("AI CFO — INTERACTIVE SCENARIO TESTING")
+    print("HappyDeskAI — INTERACTIVE SCENARIO TESTING")
     print("="*60)
     
     while True:

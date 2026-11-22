@@ -1,5 +1,5 @@
 """
-AI CFO — Middleware Package
+HappyDeskAI — Middleware Package
 Custom middleware for authentication, validation, and security.
 """
 

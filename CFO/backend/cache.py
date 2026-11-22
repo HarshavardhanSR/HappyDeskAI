@@ -1,5 +1,5 @@
 """
-AI CFO — Upstash Redis Cache Layer
+HappyDeskAI — Upstash Redis Cache Layer
 Async Redis with JSON serialization for dashboard summaries, forecasts, etc.
 
 SEC-004: Uses per-workspace key tracking sets for efficient bulk deletion.

@@ -1,5 +1,5 @@
 """
-AI CFO — FastAPI Application Entry Point
+HappyDeskAI — FastAPI Application Entry Point
 All routers wired, CORS configured, lifespan for DB init + scheduled jobs.
 SEC-FIX: Added security headers middleware.
 """

@@ -1,5 +1,5 @@
 """
-AI CFO — Demo Seed Script
+HappyDeskAI — Demo Seed Script
 Creates the "Luna Bakery" demo workspace with realistic financial data.
 Run: python seed_demo.py
 """

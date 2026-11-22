@@ -1,5 +1,5 @@
 """
-AI CFO — Onboarding Router
+HappyDeskAI — Onboarding Router
 Handles first-time user provisioning after Clerk sign-up.
 Separated from auth to keep authentication pure (BUG-004).
 """

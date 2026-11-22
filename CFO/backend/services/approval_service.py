@@ -1,5 +1,5 @@
 """
-AI CFO — Expense Approval Service
+HappyDeskAI — Expense Approval Service
 Policy matching, approval workflows, and decision tracking.
 """
 import uuid

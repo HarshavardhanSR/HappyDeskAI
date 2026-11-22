@@ -1,1 +1,1 @@
-# AI CFO — Utils package
+# HappyDeskAI — Utils package

@@ -23,7 +23,7 @@ depends_on = None
 
 
 def upgrade() -> None:
-    """Create all AI CFO tables in dependency order."""
+    """Create all HappyDeskAI tables in dependency order."""
 
     # ── Extensions ─────────────────────────────────────────────────
     op.execute("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";")

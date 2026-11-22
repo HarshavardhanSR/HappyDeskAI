@@ -1,5 +1,5 @@
 """
-AI CFO — Tax Management Service
+HappyDeskAI — Tax Management Service
 Tax category mapping, quarterly estimates (India + US), and report generation.
 """
 import uuid

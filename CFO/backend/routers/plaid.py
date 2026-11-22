@@ -1,5 +1,5 @@
 """
-AI CFO — Plaid Router (ADVANCE-003)
+HappyDeskAI — Plaid Router (ADVANCE-003)
 Webhook receiver, Link token creation, and public token exchange.
 """
 import logging

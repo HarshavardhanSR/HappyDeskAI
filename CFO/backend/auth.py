@@ -1,5 +1,5 @@
 """
-AI CFO — Clerk JWT Authentication
+HappyDeskAI — Clerk JWT Authentication
 Validates Clerk-issued JWTs using JWKS. No custom passwords.
 
 Security hardening:

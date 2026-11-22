@@ -1,5 +1,5 @@
 """
-AI CFO — Pydantic Schemas
+HappyDeskAI — Pydantic Schemas
 All request/response models aligned with frontend types.ts contracts.
 """
 import uuid

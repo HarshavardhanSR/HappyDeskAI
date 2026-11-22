@@ -1,5 +1,5 @@
 """
-AI CFO — Goals Router (Feature 5)
+HappyDeskAI — Goals Router (Feature 5)
 Financial goal tracking with CRUD and progress computation.
 """
 import uuid

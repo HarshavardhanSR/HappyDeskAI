@@ -1,5 +1,5 @@
 """
-AI CFO — Vendor Management Service
+HappyDeskAI — Vendor Management Service
 CRUD + fuzzy matching + spend analytics + performance scoring + contract management.
 """
 import uuid

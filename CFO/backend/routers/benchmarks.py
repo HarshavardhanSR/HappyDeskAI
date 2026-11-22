@@ -1,5 +1,5 @@
 """
-AI CFO — Industry Benchmarks Router (Feature C)
+HappyDeskAI — Industry Benchmarks Router (Feature C)
 Compare workspace metrics against industry averages.
 """
 from datetime import datetime, timedelta, timezone

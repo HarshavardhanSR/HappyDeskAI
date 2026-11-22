@@ -1,5 +1,5 @@
 """
-AI CFO — Scenario Testing Examples
+HappyDeskAI — Scenario Testing Examples
 Complete test suite demonstrating scenario creation, testing, and analysis.
 """
 import pytest

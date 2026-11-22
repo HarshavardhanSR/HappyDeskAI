@@ -373,6 +373,6 @@ async def recompute_all_scenarios():
 ---
 
 **Report Created:** May 13, 2026  
-**Reported By:** AI CFO Testing Team  
+**Reported By:** HappyDeskAI Testing Team
 **Priority:** 🔴 CRITICAL  
 **Status:** Ready for Fix

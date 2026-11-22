@@ -1,5 +1,5 @@
 """
-AI CFO — File Storage Service (FILE-001)
+HappyDeskAI — File Storage Service (FILE-001)
 Handles saving, retrieving, and hashing uploaded files.
 Pluggable: swap local storage for S3/R2/GCS by changing STORAGE_BACKEND env var.
 

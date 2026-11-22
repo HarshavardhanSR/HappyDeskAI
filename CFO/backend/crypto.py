@@ -1,5 +1,5 @@
 """
-AI CFO — Field-Level Encryption
+HappyDeskAI — Field-Level Encryption
 Fernet-based symmetric encryption for sensitive fields (webhook URLs, API keys).
 Key is loaded from the WEBHOOK_ENCRYPTION_KEY environment variable.
 

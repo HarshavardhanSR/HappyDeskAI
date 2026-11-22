@@ -1,5 +1,5 @@
 """
-AI CFO — Data Retention Policy Service
+HappyDeskAI — Data Retention Policy Service
 Handles automated data cleanup and retention policy management.
 """
 from datetime import datetime, timezone, timedelta

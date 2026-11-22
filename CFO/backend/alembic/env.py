@@ -1,5 +1,5 @@
 """
-Alembic env.py — async migration runner for AI CFO.
+Alembic env.py — async migration runner for HappyDeskAI.
 
 Uses the same engine and Base metadata from the application to ensure
 migrations stay in sync with SQLAlchemy models.

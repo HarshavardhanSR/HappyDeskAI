@@ -1,5 +1,5 @@
 """
-AI CFO — OpenTelemetry Setup (ADVANCE-001)
+HappyDeskAI — OpenTelemetry Setup (ADVANCE-001)
 Instruments FastAPI, SQLAlchemy, httpx and OpenAI with distributed tracing.
 Only active when OTEL_ENABLED=true in environment.
 
@@ -36,7 +36,7 @@ def _get_tracer():
         return None
     try:
         from opentelemetry import trace
-        _tracer = trace.get_tracer("ai-cfo", "1.0.0")
+        _tracer = trace.get_tracer("happydeskai", "1.0.0")
         return _tracer
     except ImportError:
         return None

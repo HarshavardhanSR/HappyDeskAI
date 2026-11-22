@@ -1,5 +1,5 @@
 """
-AI CFO - Reports router.
+HappyDeskAI - Reports router.
 Generate financial summaries with date range filtering plus CSV and PDF export.
 """
 import csv

@@ -1,5 +1,5 @@
 """
-AI CFO — Calculator Router (Feature B)
+HappyDeskAI — Calculator Router (Feature B)
 Thin HTTP adapter; logic lives in calculator_service.
 """
 from fastapi import APIRouter, Depends

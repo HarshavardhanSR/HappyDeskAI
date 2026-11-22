@@ -1,5 +1,5 @@
 """
-AI CFO — Chat Service
+HappyDeskAI — Chat Service
 Intent-based context routing (ML-001) + data confidence scoring (ML-002).
 
 Instead of fetching all financial context for every question,
@@ -602,7 +602,7 @@ def build_system_prompt(
             f"and is {stale_days} days old. Treat this as historical data, not current performance.\n"
         )
 
-    return f"""You are an AI CFO assistant for a small business. You help owners understand their finances, make data-driven decisions, and optimize spending.
+    return f"""You are HappyDeskAI's finance assistant for a small business. You help owners understand their finances, make data-driven decisions, and optimize spending.
 
 RULES — YOU MUST FOLLOW THESE WITHOUT EXCEPTION:
 1. NEVER invent or guess numbers. If the data below doesn't contain the answer, say exactly: "I don't have enough data to answer this accurately."

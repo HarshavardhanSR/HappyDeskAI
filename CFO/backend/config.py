@@ -45,7 +45,7 @@ class Settings(BaseSettings):
 
     # ── Observability (OpenTelemetry) ──
     OTEL_ENABLED: bool = False
-    OTEL_SERVICE_NAME: str = "ai-cfo-backend"
+    OTEL_SERVICE_NAME: str = "happydeskai-backend"
     OTEL_EXPORTER_OTLP_ENDPOINT: str = "http://localhost:4317"  # gRPC
     OTEL_INSECURE: bool = False  # HIGH-009: Default to secure (TLS) connections
 

@@ -1,5 +1,5 @@
 """
-AI CFO — Prophet Forecast Service (EXT-001 Alternative)
+HappyDeskAI — Prophet Forecast Service (EXT-001 Alternative)
 Time-series forecasting using Facebook Prophet with seasonality detection.
 
 This is a drop-in replacement for LinearForecastService that uses Prophet's

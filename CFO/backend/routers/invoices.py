@@ -1,5 +1,5 @@
 """
-AI CFO — Invoice Management Router
+HappyDeskAI — Invoice Management Router
 CRUD, payments, aging report, send.
 """
 import uuid

@@ -1,5 +1,5 @@
 """
-AI CFO — SQL Utilities
+HappyDeskAI — SQL Utilities
 
 SEC-CRIT-002: Escape SQL LIKE/ILIKE wildcard characters to prevent
 pattern injection attacks (CPU exhaustion via crafted wildcards).

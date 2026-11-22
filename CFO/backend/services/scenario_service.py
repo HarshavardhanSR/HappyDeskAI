@@ -1,5 +1,5 @@
 """
-AI CFO — Cash Flow Scenario Planning Service
+HappyDeskAI — Cash Flow Scenario Planning Service
 Scenario CRUD, comparison, sensitivity analysis, Monte Carlo simulation,
 industry templates, and collaborative sharing.
 """

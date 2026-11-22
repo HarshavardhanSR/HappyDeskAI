@@ -30,7 +30,7 @@ async def test_redis():
         
         print("\n[3/3] Testing SET/GET operations...")
         test_key = "test:connection:check"
-        test_value = "Hello from AI CFO!"
+        test_value = "Hello from HappyDeskAI!"
         
         await r.setex(test_key, 10, test_value)
         print(f"✓ SET successful: {test_key}")

@@ -1,5 +1,5 @@
 """
-AI CFO — Invoice Management Service
+HappyDeskAI — Invoice Management Service
 Sequential numbering, CRUD, payment tracking, aging reports.
 """
 import uuid

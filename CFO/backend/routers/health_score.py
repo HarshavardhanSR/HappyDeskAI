@@ -1,5 +1,5 @@
 """
-AI CFO — Health Score Router
+HappyDeskAI — Health Score Router
 Thin HTTP adapter; logic lives in health_score_service.
 Supports ML-004 stage override via query param.
 """

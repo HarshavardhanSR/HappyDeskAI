@@ -1,5 +1,5 @@
 """
-AI CFO — Database Configuration
+HappyDeskAI — Database Configuration
 Async SQLAlchemy engine + session factory for Neon PostgreSQL.
 
 EXT-004: Neon URL workaround lives in config.py (Settings.database_url_for_asyncpg).

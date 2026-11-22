@@ -1,5 +1,5 @@
 """
-AI CFO — Cash Flow Scenario Planning Router
+HappyDeskAI — Cash Flow Scenario Planning Router
 Scenario CRUD, comparison, sensitivity, Monte Carlo, templates, sharing.
 """
 import uuid

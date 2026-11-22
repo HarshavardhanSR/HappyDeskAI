@@ -1,5 +1,5 @@
 """
-AI CFO — Dashboard Service
+HappyDeskAI — Dashboard Service
 Aggregation logic for the main dashboard, with Redis caching.
 
 PERF-001: All 6 independent DB queries run in parallel via asyncio.gather

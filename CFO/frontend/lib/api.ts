@@ -1,5 +1,5 @@
 // ════════════════════════════════════════════════════════════════
-// AI CFO — API Client
+// HappyDeskAI — API Client
 // Centralized API calls aligned with backend router structure.
 // ════════════════════════════════════════════════════════════════
 

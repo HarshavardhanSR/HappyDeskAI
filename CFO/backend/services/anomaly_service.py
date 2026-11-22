@@ -1,5 +1,5 @@
 """
-AI CFO — Anomaly Detection Service (ML-003 / M-004)
+HappyDeskAI — Anomaly Detection Service (ML-003 / M-004)
 Cached anomaly detection with per-category statistical models.
 
 Instead of recomputing category stats from scratch on every scan,

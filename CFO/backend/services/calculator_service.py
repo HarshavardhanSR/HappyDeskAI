@@ -1,5 +1,5 @@
 """
-AI CFO - Calculator Service
+HappyDeskAI - Calculator Service
 Affordability analysis based on actual cash position, recent net burn, and 3-month projections.
 """
 from datetime import datetime, timedelta, timezone

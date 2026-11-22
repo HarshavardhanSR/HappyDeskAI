@@ -1,5 +1,5 @@
 """
-AI CFO — Forecast Service Protocol (EXT-001)
+HappyDeskAI — Forecast Service Protocol (EXT-001)
 Defines the interface for forecast implementations.
 
 Swap implementations by changing the dependency in dependencies.py

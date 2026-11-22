@@ -1,5 +1,5 @@
 """
-AI CFO — Alerts Router
+HappyDeskAI — Alerts Router
 CRUD for system and user-generated alerts.
 """
 import uuid

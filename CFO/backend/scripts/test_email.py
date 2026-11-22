@@ -17,11 +17,11 @@ async def test_basic_email(recipient: str):
     
     success = await email_service.send_email(
         to_addresses=[recipient],
-        subject="AI CFO Test Email",
+        subject="HappyDeskAI Test Email",
         html_content="""
         <html>
         <body style="font-family: Arial, sans-serif; padding: 20px;">
-            <h1 style="color: #00E5CC;">Hello from AI CFO! 🚀</h1>
+            <h1 style="color: #00E5CC;">Hello from HappyDeskAI! 🚀</h1>
             <p>This is a test email to verify your email integration is working correctly.</p>
             <p>If you're seeing this, your email configuration is set up properly!</p>
             <hr>
@@ -31,7 +31,7 @@ async def test_basic_email(recipient: str):
         </body>
         </html>
         """,
-        text_content="Hello from AI CFO! This is a test email.",
+        text_content="Hello from HappyDeskAI! This is a test email.",
     )
     
     if success:
@@ -75,7 +75,7 @@ async def main():
     recipient = sys.argv[1]
     
     print("\n" + "=" * 60)
-    print("AI CFO Email Integration Test")
+    print("HappyDeskAI Email Integration Test")
     print("=" * 60)
     
     # Test basic email

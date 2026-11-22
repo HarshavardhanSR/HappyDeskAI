@@ -1,5 +1,5 @@
 """
-AI CFO — Chat Router
+HappyDeskAI — Chat Router
 AI assistant with intent-gated RAG context and hardened prompts.
 Sessions are UUID-identified, workspace-scoped, and user-owned.
 Includes both blocking and streaming (SSE) endpoints.
@@ -176,7 +176,7 @@ async def chat(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_rls_db),
 ):
-    """Send a message to the AI CFO assistant.
+    """Send a message to the HappyDeskAI finance assistant.
 
     Uses intent-gated RAG context, confidence-scored prompts,
     and sliding window history compression.
@@ -262,7 +262,7 @@ async def chat_stream(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_rls_db),
 ):
-    """Stream AI CFO response via Server-Sent Events (ADVANCE-002).
+    """Stream HappyDeskAI response via Server-Sent Events (ADVANCE-002).
 
     SSE event format (JSON-framed for rich metadata):
         data: {"type":"meta","session_id":"...","confidence":"high","intents":[...]}

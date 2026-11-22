@@ -15,7 +15,7 @@ async def test_basic_message():
     print("=" * 60)
     
     success = await slack_service.send_message(
-        text="Hello from AI CFO! 🚀 This is a test message.",
+        text="Hello from HappyDeskAI! 🚀 This is a test message.",
     )
     
     if success:
@@ -129,7 +129,7 @@ async def test_anomaly_notification():
 async def main():
     """Run all Slack tests."""
     print("\n" + "=" * 60)
-    print("AI CFO Slack Integration Test")
+    print("HappyDeskAI Slack Integration Test")
     print("=" * 60)
     
     # Run all tests

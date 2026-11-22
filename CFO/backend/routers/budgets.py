@@ -1,5 +1,5 @@
 """
-AI CFO — Budgets Router
+HappyDeskAI — Budgets Router
 CRUD for category budgets with spend tracking.
 """
 import uuid

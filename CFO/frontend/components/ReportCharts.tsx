@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useCurrency } from "@/components/CurrencyContext";
 
 // ═══════════════════════════════════════════════════════════════════
-// AI CFO — Report Chart Components
+// HappyDeskAI — Report Chart Components
 // Pure SVG/CSS charts for the Reports page. Zero external dependencies.
 // Upgraded: cubic Bézier smoothing, gradient fills, polished hover states.
 // ═══════════════════════════════════════════════════════════════════

@@ -1,5 +1,5 @@
 """
-AI CFO — Shared FastAPI Dependencies
+HappyDeskAI — Shared FastAPI Dependencies
 SEC-002: Provides get_rls_db — the ONLY way to get a DB session in routers.
 
 This module breaks the circular import chain:

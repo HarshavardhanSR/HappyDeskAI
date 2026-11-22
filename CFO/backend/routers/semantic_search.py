@@ -1,5 +1,5 @@
 """
-AI CFO — Semantic Search Router (ADVANCE-005)
+HappyDeskAI — Semantic Search Router (ADVANCE-005)
 Natural-language search over transactions using pgvector embeddings.
 """
 import uuid

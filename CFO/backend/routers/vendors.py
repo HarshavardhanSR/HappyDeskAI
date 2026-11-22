@@ -1,5 +1,5 @@
 """
-AI CFO — Vendor Management Router
+HappyDeskAI — Vendor Management Router
 CRUD, spend analytics, fuzzy duplicate detection,
 performance scoring, contract management.
 """

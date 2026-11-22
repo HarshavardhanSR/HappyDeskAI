@@ -1,5 +1,5 @@
 """
-AI CFO — Auth Router
+HappyDeskAI — Auth Router
 Clerk-based authentication endpoints.
 """
 from fastapi import APIRouter, Depends

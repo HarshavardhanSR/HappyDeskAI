@@ -1,5 +1,5 @@
 """
-AI CFO — Unit Tests for TaxCalculationService
+HappyDeskAI — Unit Tests for TaxCalculationService
 Tests all 8 external tax API integrations with mocked httpx responses.
 """
 import pytest

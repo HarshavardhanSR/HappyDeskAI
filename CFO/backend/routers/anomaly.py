@@ -1,4 +1,4 @@
-"""AI CFO — Anomaly Detection Router
+"""HappyDeskAI — Anomaly Detection Router
 
 Thin HTTP adapter over anomaly_service (ML-003).
 L-001: SSE streaming endpoint for large scan results.

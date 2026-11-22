@@ -1,5 +1,5 @@
 """
-AI CFO — GDPR/CCPA Compliance Router
+HappyDeskAI — GDPR/CCPA Compliance Router
 Data export, deletion, consent management, and retention policies.
 
 Implements GDPR Article 20 (Right to Data Portability) and Article 17 (Right to Erasure),

@@ -1,5 +1,5 @@
 """
-AI CFO — Plaid Integration Service (ADVANCE-003)
+HappyDeskAI — Plaid Integration Service (ADVANCE-003)
 Handles webhook signature verification, transaction sync via /transactions/sync,
 and Plaid API client initialization.
 """

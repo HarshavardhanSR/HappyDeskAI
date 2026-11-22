@@ -1,5 +1,5 @@
 """
-Shared test fixtures for AI CFO tests.
+Shared test fixtures for HappyDeskAI tests.
 """
 import sys
 import os

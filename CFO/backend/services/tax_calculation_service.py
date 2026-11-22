@@ -1,5 +1,5 @@
 """
-AI CFO — External Tax Calculation API Integration
+HappyDeskAI — External Tax Calculation API Integration
 Free APIs: FinCalculator.in (India) + rel.tax (50 countries)
 """
 import logging

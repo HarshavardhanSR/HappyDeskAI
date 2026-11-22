@@ -2,6 +2,8 @@
 
 This directory contains automated CI/CD workflows for HappyDeskAI.
 
+> These workflow files are nested under `CFO/.github/workflows`. GitHub only runs workflows under the repository-root `.github/workflows` directory, so these files are templates until they are moved there. Update their paths to `CFO/backend` and `CFO/frontend`, configure required secrets, and review the auto-merge workflow before enabling it.
+
 ## 🚀 Workflows Overview
 
 ### 1. **CI - Tests and Lint** (`ci.yml`)
@@ -164,25 +166,25 @@ git push origin main
 
 **Backend tests:**
 ```bash
-cd backend
+cd CFO/backend
 pytest tests/ -v --cov=.
 ```
 
 **Frontend build:**
 ```bash
-cd frontend
+cd CFO/frontend
 npm run build
 ```
 
 **Linting:**
 ```bash
 # Backend
-cd backend
+cd CFO/backend
 ruff check .
 black --check .
 
 # Frontend
-cd frontend
+cd CFO/frontend
 npm run lint
 ```
 
@@ -193,9 +195,9 @@ npm run lint
 Add these to your README.md:
 
 ```markdown
-![CI](https://github.com/sanchitmoh/HappyDeskAI/workflows/CI%20-%20Tests%20and%20Lint/badge.svg)
-![Code Quality](https://github.com/sanchitmoh/HappyDeskAI/workflows/Code%20Quality/badge.svg)
-[![codecov](https://codecov.io/gh/sanchitmoh/HappyDeskAI/branch/main/graph/badge.svg)](https://codecov.io/gh/sanchitmoh/HappyDeskAI)
+![CI](https://github.com/HarshavardhanSR/HappyDeskAI/workflows/CI%20-%20Tests%20and%20Lint/badge.svg)
+![Code Quality](https://github.com/HarshavardhanSR/HappyDeskAI/workflows/Code%20Quality/badge.svg)
+[![codecov](https://codecov.io/gh/HarshavardhanSR/HappyDeskAI/branch/main/graph/badge.svg)](https://codecov.io/gh/HarshavardhanSR/HappyDeskAI)
 ```
 
 ---

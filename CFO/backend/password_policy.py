@@ -1,5 +1,5 @@
 """
-AI CFO — Password Policy Framework
+HappyDeskAI — Password Policy Framework
 Configurable password validation for future custom authentication implementations.
 
 ⚠️ DEPRECATION NOTICE (ARCH-002):

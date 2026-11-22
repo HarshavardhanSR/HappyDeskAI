@@ -1,5 +1,5 @@
 """
-AI CFO — Password Policy Router
+HappyDeskAI — Password Policy Router
 Configuration endpoints for password policy framework.
 
 ⚠️ DEPRECATION NOTICE (ARCH-002):

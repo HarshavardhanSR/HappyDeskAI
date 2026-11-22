@@ -1,5 +1,5 @@
 """
-AI CFO — Tax Management Router
+HappyDeskAI — Tax Management Router
 Tax categories, quarterly estimates, jurisdictions, reports,
 and external tax calculation API integration.
 """

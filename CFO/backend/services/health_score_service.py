@@ -1,5 +1,5 @@
 """
-AI CFO — Health Score Service (ML-004)
+HappyDeskAI — Health Score Service (ML-004)
 Stage-aware weighted scoring with adaptive component weights.
 
 Weights adjust based on business stage:

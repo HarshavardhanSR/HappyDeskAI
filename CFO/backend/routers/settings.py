@@ -1,5 +1,5 @@
 """
-AI CFO — Settings Router
+HappyDeskAI — Settings Router
 Workspace settings, user profile, and team member management.
 """
 import uuid
@@ -270,7 +270,7 @@ async def test_alert_channel(
 
         success = await email_service.send_alert_email(
             to_addresses=recipients,
-            alert_title="Test alert from AI CFO settings",
+            alert_title="Test alert from HappyDeskAI settings",
             alert_message="Email alerts are connected and ready to send workspace notifications.",
             alert_severity="info",
             alert_category="settings",
@@ -286,7 +286,7 @@ async def test_alert_channel(
             raise HTTPException(status_code=400, detail="Add a Slack webhook URL first")
 
         success = await slack_service.send_alert(
-            title="Test alert from AI CFO settings",
+            title="Test alert from HappyDeskAI settings",
             message="Slack alerts are connected and ready to send workspace notifications.",
             severity="info",
             category="settings",

@@ -1,5 +1,5 @@
 """
-AI CFO — Slack Service
+HappyDeskAI — Slack Service
 Send notifications to Slack via Webhooks or Bot API
 """
 import logging
